@@ -72,6 +72,8 @@ services:
     volumes:
       - ./html:/var/www/html
       - ./nginx/conf.d/:/etc/nginx/conf.d/
+      # Uncomment the code if you want to see logs.
+      # - ./nginx/:/var/log/nginx/
 #    When you want add ports
     # extra_hosts:
       # - test.com:127.0.0.2
