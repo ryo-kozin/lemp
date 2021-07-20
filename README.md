@@ -44,10 +44,12 @@ If you create a laravel project, keep following the commands below.
 - `mysql -uroot -p`    
 - `root`   
 - `create database {database name};`   
-- `exit;`      
-9. Finally open /lemp/nginx/conf.d/app.conf then chage the code.     
-- From `root /var/www/html` to `root /var/www/html/{project name}/public`      
-11. Access http://localhost, you can see the laravel project.
+- `exit;`
+        
+9. Finally open /lemp/nginx/conf.d/app.conf then chage the code.        
+- From `root /var/www/html` to `root /var/www/html/{project name}/public`
+      
+10. Access http://localhost, you can see the laravel project.
     
 ## URL    
 localhost : http://localhost   
