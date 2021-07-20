@@ -8,7 +8,7 @@ Docker
 ## Sturucture
 | container name     | image      | function       |
 | ------------------ | ---------- | --------       |
-| laravel-app        | php        | php            |
+| laravel-app        | laravel    | php            |
 | laravel-db         | mariadb    | database       |        
 | laravel-phpmyadmin | phpmyadmin | phpmyadmin     |
 | laravel-nginx      | nginx      | nginx          |
