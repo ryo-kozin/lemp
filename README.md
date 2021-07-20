@@ -25,9 +25,9 @@ Docker
 | phpmyadmin-nginx | phpmyadmin - nginx       | bridge |
     
 
-## How to build lamp
+## How to build lemp
 1. `git clone https://github.com/ryo-kozin/lemp.git`    
-2. `cd lamp`   
+2. `cd lemp`   
 3. `docker-compose up -d`
     - If the command can't finish evne you waited for a few minuts, please try the commans below
     - `Ctrl + C`, then `docker-compose start`
